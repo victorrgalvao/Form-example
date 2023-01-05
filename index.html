@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container">
+       <form action="">
+        <h1>Formulario</h1>
+        <div class="campoNome">
+            <label for="inNome">Nome</label>
+            <input type="text" name="" id="inNome" placeholder="Insira um nome" required>
+        </div>
+        <div class="campoSexo">
+            <label for="">Sexo</label>
+            <div class="s1">
+                <input type="radio" name="gender" value="Masculino" id="inMasculino">
+                <label for="inMasculino">M</label>
+                <input type="radio" name="gender" value="Feminino" id="inFeminino">
+                <label for="inFeminino">F</label>
+            </div>
+          
+        </div>
+        <div class="campoEmail">
+            <label for="inEmail">Email</label>
+            <input type="email" id="inEmail" placeholder="Insira o seu email">
+        </div>
+        <div class="campoFone">
+            <label for="inFone">Numero celular</label>
+            <input type="tel" id="inFone" placeholder="Insira o numero do celular">
+        </div>
+        <div class="campoIdade">
+            <label for="">Idade</label>
+            <div>
+                <input type="radio" name="age" value="<18" id="in18">
+                <label for="inAte18"><18</label>
+            </div>
+            <div>
+                <input type="radio" name="age" value="18-35" id="inEntre18E35">
+                <label for="inEntre18E35">18-35</label>
+                <div>
+                    <input type="radio" name="age" value="35+" id="inMaiorDe35">
+                    <label for="inMaiorDe35">35></label>
+                </div>
+               
+                    <div class="campoDataConsulta">
+                        <label for="inDataConsulta">Data da Consulta</label>
+                        <input type="date" name="" id="inDataConsulta">
+                    </div>
+
+                </div>
+                <div class="campoMotivoConsulta">
+                    <label for="inMotivoConsulta">Motivo da Consulta</label>
+                    <br>
+                    <select name="motivo" id="inMotivoConsulta">
+                        <option value="checkup">Check-Up</option>
+                        <option value="retorno">Retorno</option>
+                        <option value="emergencia">Emergencia</option>
+                    </select>
+                </div>
+                <div class="campoMensagem">
+                    <label for="inMensagem">Informações adicionais</label>
+                    <br>
+                    <textarea name="" id="inMensagem" cols="30" rows="1" placeholder="Escreva uma mensagem"></textarea>
+                </div>
+                
+                <div class="buttonBreak">
+                    <button type="submit">Enviar</button>
+                    
+                </div>
+       </form>
+            </div>
+        
+</body>
+
+</html>

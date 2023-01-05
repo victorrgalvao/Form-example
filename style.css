@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to bottom, #00C9A7, #e2b9ec);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 1.6rem;
+    font-weight: bolder;
+   
+}
+
+.container {
+    max-width: 350px;
+    min-height: 600px;
+    max-height: auto;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.561);
+}
+
+.campoNome {
+
+    margin-top: 10px;
+   
+
+}
+
+label {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.campoNome>input {
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+
+.campoSexo {
+    padding: 10px 0;
+
+}
+
+.campoEmail {
+    margin-top: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.campoEmail>input {
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+
+.campoFone {
+    margin-top: 10px;
+
+}
+
+.campoFone>input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+
+.campoIdade{
+    margin-top: 10px;
+}
+
+.campoDataConsulta{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.campoDataConsulta > input{
+  border: none;
+  border-bottom: 1px solid black;
+}
+.campoMotivoConsulta{
+    margin-top: 10px;
+}
+.campoMotivoConsulta > select{
+    border: none;
+    padding: 5px;
+    width: 50%;
+   
+}
+.campoMensagem{
+    margin-top: 10px;
+   
+}
+.campoMensagem > textarea{
+    border: none;
+    border-bottom: 1px solid black;
+   
+}
+
+.buttonBreak{
+    padding: 30px 0;
+  
+}
+ button{
+    background-color: #fa8bff;
+    background-image: linear-gradient(90deg , #FF9671 0%,#FFC75F 52%,#F9F871 92%);
+   border: none;
+   color: white;
+   padding: 20px 0px;
+   border-radius: 20px;
+   width:100%;
+   height: 75%;
+   font-size: 25px;
+
+}
+ button:hover{
+    background-color: #FA8BFF;
+        background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+
+}
